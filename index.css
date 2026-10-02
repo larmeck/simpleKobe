@@ -1,0 +1,52 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+    
+
+        button {
+            padding: 10px 20px;
+            background-color: #a5ccf5;
+            text-align: center;
+        }
+
+        #status {
+        margin-top: 15px;
+        padding: 12px;
+        width: fit-content;
+        color: #19e80b;
+        text-align: center;
+
+        }
+
+        select {
+            padding: px;
+        }
+
+        .filters {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #16b9de;
+        }

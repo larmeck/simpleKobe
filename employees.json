@@ -1,0 +1,37 @@
+[
+  {
+    "id": 101,
+    "name": "Sarah Johnson",
+    "department": "Engineering",
+    "role": "Frontend Developer",
+    "active": true
+  },
+  {
+    "id": 102,
+    "name": "James Otieno",
+    "department": "Finance",
+    "role": "Accountant",
+    "active": true
+  },
+  {
+    "id": 103,
+    "name": "Grace Mwangi",
+    "department": "Engineering",
+    "role": "Backend Developer",
+    "active": false
+  },
+  {
+    "id": 104,
+    "name": "David Smith",
+    "department": "HR",
+    "role": "HR Officer",
+    "active": true
+  },
+  {
+    "id": 105,
+    "name": "Amina Hassan",
+    "department": "Finance",
+    "role": "Finance Manager",
+    "active": false
+  }
+]

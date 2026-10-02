@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Details of Employees</title>
+
+    <script type="module" src="homeAsync.js"></script>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+
+<body>
+
+    <h1>List of Employees</h1>
+
+
+    <button id="loadEmployees"> Load employee </button>
+
+
+
+    <p id="status">  </p>
+
+
+    
+
+    <div class="filters">
+
+    <label for="department"> Department:</label>
+
+    <select id="department">
+        <option value="all">All departments</option>
+        <option value="Engineering">Engineering</option>
+        <option value="Finance">Finance</option>
+        <option value="HR">HR</option>
+    </select>
+
+    <label>
+        <input type="checkbox" id="active">
+        Active Employees
+    </label>
+
+</div>
+
+
+<p id="count">No of Employees: 0</p>
+
+
+   
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>Name</th>
+
+                <th>Department</th>
+
+                <th>Role</th>
+
+                <th>Active</th>
+
+            </tr>
+
+        </thead>
+
+
+        <tbody id="employeeTable">
+
+            <!-- JavaScript will add employees here -->
+
+        </tbody>
+
+
+    </table>
+
+
+</body>
+
+</html>
